@@ -20,6 +20,7 @@ public class UserService implements IUserService {
     public User GetById(Integer userId) {
         // local variable inital value null
         User foundUser = null;
+
         // loop through the users list
         for (User user : Users()) {
             // check the given userid is equal to the userid of users array list
